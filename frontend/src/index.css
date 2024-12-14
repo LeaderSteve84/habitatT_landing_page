@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Active link styling */
+.nav-item.active-link {
+  font-weight: bold;
+  color: #ff9900; /* Change to your preferred active link color */
+}
+
+/* Hover effect for links */
+.nav-item:hover {
+  color: #ff9900; /* Highlight link on hover */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Button styling */
+.nav-btn {
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-size: 1rem;
+}
+
+.footer a:hover {
+    color: #1e90ff; /* Blue color on hover */
+    text-decoration: underline;
+}
+
+
+.social-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+/* Footer Links */
+.footer a:hover {
+    color: #1e90ff; /* Change to a blue color on hover */
+    text-decoration: underline;
+}
+
+/* Social Media Icons Hover Effect */
+.social-icon:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    transition: transform 0.3s ease;
+}
